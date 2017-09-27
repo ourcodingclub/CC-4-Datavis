@@ -47,7 +47,7 @@ LPI2$abundance <- as.numeric(LPI2$abundance)
 # Choose two species from the LPI data and display their population trends using a scatterplot and a linear model fit
 
 # HINT - use filter() from the dplyr package
-# e.g. my_species <- filter(LPI2, Common.name == c("Reed bunting", "Corn bunting"))
+# e.g. my_species <- filter(LPI2, Common.Name == c("Reed bunting", "Corn bunting"))
 # Careful with the spelling, needs to be exactly like it is in the data
 
 # Some code to get you started
