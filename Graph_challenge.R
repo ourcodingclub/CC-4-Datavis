@@ -43,8 +43,12 @@ LPI2$abundance <- as.numeric(LPI2$abundance)
 ##########################################################
 
 # GRAPH 1
+
 # Population trends of two species
 # Choose two species from the LPI data and display their population trends using a scatterplot and a linear model fit
+
+# HINT - use unique() to create a list of species names to choose from
+# e.g. unique(LPI2$taxonGroup)
 
 # HINT - use filter() from the dplyr package
 # e.g. my_species <- filter(LPI2, Common.Name == c("Reed bunting", "Corn bunting"))
@@ -55,7 +59,10 @@ LPI2$abundance <- as.numeric(LPI2$abundance)
 
 # Save the plot using ggsave(object_name, file="filename.png", width=NUMBER, height=NUMBER)
 
-# Graph 2
+##########################################################
+
+# GRAPH 2
+
 # Comparing abundance between countries
 # Sticking with your two species, filter the data to include only records from FIVE countries of your choice
 # Make a boxplot to compare how the abundance of those two species varies between the five countries
@@ -66,5 +73,7 @@ LPI2$abundance <- as.numeric(LPI2$abundance)
 # Save the plot using ggsave()
 
 # Create a panel of the two graphs and save it again using ggsave()
+
+##########################################################
 
 # Upload the panel in the Google Drive https://drive.google.com/open?id=0B7mgZ2NLgHGMT3BUV0ZrcV9teHc
