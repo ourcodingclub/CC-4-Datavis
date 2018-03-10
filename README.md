@@ -6,6 +6,8 @@ Living Planet Index data http://www.livingplanetindex.org/home/index used to com
 
 `ggplot2_cheatsheet.pdf` was provided by R Studio: https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf 
 
+Check out https://ourcodingclub.github.io/workshop/ to learn how you can get involved!
+
 We would love to hear your feedback on the tutorial, whether you did it at a Coding Club workshop or online: 
 https://www.surveymonkey.co.uk/r/83WV8HV
 
