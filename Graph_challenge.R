@@ -18,7 +18,7 @@ library(gridExtra)
 # First we will import and format data and then you can write some code to beautify the graphs :).
 
 # Import data from the Living Planet Index - population trends of vertebrate species from 1970 to 2014
-LPI <- read.csv(file.choose())  # find where you saved LPIdata_CC.csv
+LPI <- read.csv("LPIdata_CC.csv")  # find where you saved LPIdata_CC.csv
 
 # Notice the data are in a wide format - the different years are column names, when really they should be rows
 # We will reshape the data using the gather() function from the tidyr package
@@ -26,8 +26,9 @@ LPI <- read.csv(file.choose())  # find where you saved LPIdata_CC.csv
 # Reshape data into long form
 # By adding 9:53, we select rows from 9 to 53, the ones for the different years of monitoring
 LPI2 <- gather(LPI, "year", "abundance", 9:53)
-view(LPI2)
 
+View(LPI2)
+c("#53868B", "#FFFFFF", "#FFFFFF")
 # Notice that there is an 'X' in front of all the years - when we imported the data, all column names become characters
 # R put an 'X' in front of the years to turn the numbers into characters
 # Now that the years are rows, not columns, we need them to be numbers
